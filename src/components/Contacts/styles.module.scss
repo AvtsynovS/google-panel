@@ -1,0 +1,19 @@
+.contacts {
+  border: 1px solid grey;
+
+  .btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 50px;
+
+    & i {
+      padding-right: 5px;
+    }
+  }
+}

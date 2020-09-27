@@ -1,0 +1,30 @@
+.rating {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-size: 10px;
+  color: #adadad;
+  cursor: pointer;
+
+  .count {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+}
+
+.btn {
+  color: #e3e4e8;
+  background-color: transparent !important;
+  border: none;
+  max-width: 20px;
+  margin: 0 2px;
+  padding: 0;
+
+  :hover {
+    color: #fccc41;
+  }
+
+  :active {
+    color: #fccc41;
+  }
+}
